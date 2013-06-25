@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		186F85EF177961E80068CEB7 /* GitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F85EE177961E70068CEB7 /* GitTest.m */; };
+		186F85F2177965BA0068CEB7 /* GitTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F85F1177965BA0068CEB7 /* GitTest2.m */; };
 		188BA39517772DBF003007D1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BA39417772DBF003007D1 /* QuartzCore.framework */; };
 		188BA39717772DBF003007D1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BA39617772DBF003007D1 /* OpenGLES.framework */; };
 		188BA39917772DBF003007D1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188BA39817772DBF003007D1 /* OpenAL.framework */; };
@@ -164,6 +165,8 @@
 /* Begin PBXFileReference section */
 		186F85ED177961E70068CEB7 /* GitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTest.h; sourceTree = "<group>"; };
 		186F85EE177961E70068CEB7 /* GitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTest.m; sourceTree = "<group>"; };
+		186F85F0177965BA0068CEB7 /* GitTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTest2.h; sourceTree = "<group>"; };
+		186F85F1177965BA0068CEB7 /* GitTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTest2.m; sourceTree = "<group>"; };
 		188BA39117772DBF003007D1 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188BA39417772DBF003007D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		188BA39617772DBF003007D1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -534,6 +537,8 @@
 				188BA53217772DC7003007D1 /* Supporting Files */,
 				186F85ED177961E70068CEB7 /* GitTest.h */,
 				186F85EE177961E70068CEB7 /* GitTest.m */,
+				186F85F0177965BA0068CEB7 /* GitTest2.h */,
+				186F85F1177965BA0068CEB7 /* GitTest2.m */,
 			);
 			path = ARDemo;
 			sourceTree = "<group>";
@@ -1163,6 +1168,7 @@
 				188BA53B17772DC7003007D1 /* GameLayer.m in Sources */,
 				1891A3F9177818BD005FA1DC /* EnemyShip.m in Sources */,
 				186F85EF177961E80068CEB7 /* GitTest.m in Sources */,
+				186F85F2177965BA0068CEB7 /* GitTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
