@@ -160,6 +160,7 @@
 		1891A40317787F1F005FA1DC /* Spinning.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1891A40217787F1F005FA1DC /* Spinning.plist */; };
 		1891A40517787FDB005FA1DC /* bow2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1891A40417787FDA005FA1DC /* bow2.plist */; };
 		18A4909A1778A6D90068BB0C /* butter.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A490991778A6D90068BB0C /* butter.png */; };
+		2E9BAAA91CCF4861000DB120 /* CommUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BAAA81CCF4861000DB120 /* CommUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -464,6 +465,8 @@
 		1891A40217787F1F005FA1DC /* Spinning.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Spinning.plist; sourceTree = "<group>"; };
 		1891A40417787FDA005FA1DC /* bow2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bow2.plist; sourceTree = "<group>"; };
 		18A490991778A6D90068BB0C /* butter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butter.png; sourceTree = "<group>"; };
+		2E9BAAA71CCF4861000DB120 /* CommUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtils.h; sourceTree = "<group>"; };
+		2E9BAAA81CCF4861000DB120 /* CommUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,6 +529,7 @@
 		188BA3A817772DBF003007D1 /* ARDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E9BAAA61CCF481C000DB120 /* utils */,
 				188BA53617772DC7003007D1 /* AppDelegate.h */,
 				188BA53717772DC7003007D1 /* AppDelegate.m */,
 				188BA53917772DC7003007D1 /* GameLayer.h */,
@@ -966,6 +970,15 @@
 			path = Resources/Spritesheets;
 			sourceTree = "<group>";
 		};
+		2E9BAAA61CCF481C000DB120 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E9BAAA71CCF4861000DB120 /* CommUtils.h */,
+				2E9BAAA81CCF4861000DB120 /* CommUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1075,6 +1088,7 @@
 				188BA3F517772DC1003007D1 /* CCCamera.m in Sources */,
 				188BA3F817772DC1003007D1 /* CCClippingNode.m in Sources */,
 				188BA3FC17772DC1003007D1 /* CCConfiguration.m in Sources */,
+				2E9BAAA91CCF4861000DB120 /* CommUtils.m in Sources */,
 				188BA3FF17772DC1003007D1 /* ccDeprecated.m in Sources */,
 				188BA40217772DC2003007D1 /* CCDirector.m in Sources */,
 				188BA40517772DC2003007D1 /* CCDrawingPrimitives.m in Sources */,
